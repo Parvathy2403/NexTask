@@ -1,21 +1,109 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 NexTask
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Task Management Web Application** built with **React.js**. NexTask helps users efficiently organize, prioritize, and track their daily tasks through an intuitive and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+NexTask allows users to create, manage, and monitor their tasks with features such as priorities, categories, task types, due dates, progress tracking, and local storage persistence. The application is designed with a clean and responsive UI to provide a seamless experience across different devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# NexTask
-Task Manger website that manages all task.
->>>>>>> eb4ed87e4eb7c33ac538b49428ab83a20622b0a1
+### 📝 Task Management
+- Add new tasks
+- Mark tasks as complete or undo completion
+- Delete individual tasks
+- Clear all tasks
+- Prevent empty task submission
+
+### 📂 Task Organization
+- Assign task priority (High, Medium, Low)
+- Categorize tasks (General, Work, Personal)
+- Add task type
+- Set a due date for each task
+
+### 📊 Progress Tracking
+- View completed and pending tasks
+- Dynamic progress bar
+- Automatically updates as tasks change
+
+### 💾 Data Persistence
+- Save tasks using **Local Storage**
+- Automatically restore tasks after refreshing the page
+
+### 📱 Responsive Design
+- Optimized for Desktop
+- Tablet Friendly
+- Mobile Responsive
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Hooks (`useState`, `useEffect`)
+- Local Storage API
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+NexTask
+│
+├── public/
+│
+├── src/
+│   ├── Components/
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskList.jsx
+│   │   └── ProgressTracker.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 💻 React Concepts Used
+
+- Functional Components
+- React Hooks
+  - useState
+  - useEffect
+- Props
+- Event Handling
+- Conditional Rendering
+- Dynamic List Rendering using `map()`
+- Component Reusability
+- State Management
+- Local Storage
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+- React Component Architecture
+- State Management using Hooks
+- Props and Component Communication
+- Local Storage Integration
+- Responsive UI Design
+- Event Handling in React
+- Dynamic Rendering
+- Project Structuring in React
+
+---
